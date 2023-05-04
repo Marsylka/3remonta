@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="assets/css/style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lobster&family=Montserrat:wght@400;700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/jgallery.min.js?v=2.2.1"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>3remonta</title>
+</head>
+<body>
+
+<!--header-->
+<header class="header" id="header">
+    <div class="container">
+          <div class="header__inner">
+            <div class="header__logo" data-scroll="#intro">
+             <img src="assets/images/logo/logoza3.png" alt="">
+            </div>
+            <nav class="nav" id="nav">
+                <a class="nav__link transition" href="index.html">На главную</a>
+                <a class="nav__link transition" href="index.html#about">О нас</a>
+                <a class="nav__link transition" href="index.html#services">Услуги</a>
+                <a class="nav__link transition" href="index.html#footer" >Контакты</a>
+            </nav>
+            <button class="nav-toggle" id="nav_toggle" type="button">
+                <span class="nav-toggle__item">Меню</span>
+            </button>
+          </div>
+    </div>
+</header>
+
+<!--gallery-->
+<div id="gallery">
+</div>
+<script type="text/javascript">
+    document.querySelector('#gallery').appendChild(JGallery.create([
+//       {
+//        title: 'Видео',
+//        items: [
+//            {
+//                element: JGallery.createElement('<video src="SampleVideo_1280x720_1mb.mp4" loop autoplay/>'),
+//                thumbElement: JGallery.createElement('<span>Video</span>'),
+//                title: 'Video',
+//                hash: 'video'
+//            },
+//            {
+//                element: JGallery.createElement('<span style="font-size: 10vmax">Any HTML content</span>'),
+//                thumbElement: JGallery.createElement('<span>HTML</span>'),
+//                title: 'HTML',
+//                hash: 'html'
+//            }
+//        ]
+//    },
+        {
+          title: 'Ванные комнаты',
+        items: [
+            {
+                url: 'assets/images/gallery/large/bathroom_1.jpg',
+                thumbUrl: 'assets/images/gallery/small/bathroom_small_1.jpg',
+                title: 'Фото1',
+                hash: 'Фото-1'
+            },
+            {
+                url: 'assets/images/gallery/large/bathroom_2.jpg',
+                thumbUrl: 'assets/images/gallery/small/bathroom_small_2.jpg',
+                title: 'Фото2',
+                hash: 'Фото-2'
+            },
+            {
+                url: 'assets/images/gallery/large/bathroom_3.jpg',
+                thumbUrl: 'assets/images/gallery/small/bathroom_small_3.jpg',
+                title: 'Фото3',
+                hash: 'Фото-3'
+            },
+             {
+                url: 'assets/images/gallery/large/bathroom_4.jpg',
+                thumbUrl: 'assets/images/gallery/small/bathroom_small_4.jpg',
+                title: 'Фото1',
+                hash: 'Фото-1'
+            },
+            {
+                url: 'assets/images/gallery/large/bathroom_5.jpg',
+                thumbUrl: 'assets/images/gallery/small/bathroom_small_5.jpg',
+                title: 'Фото2',
+                hash: 'Фото-2'
+            },
+            {
+                url: 'assets/images/gallery/large/bathroom_6.jpg',
+                thumbUrl: 'assets/images/gallery/small/bathroom_small_6.jpg',
+                title: 'Фото3',
+                hash: 'Фото-3'
+            },
+            {
+                url: 'assets/images/gallery/large/bathroom_7.jpg',
+                thumbUrl: 'assets/images/gallery/small/bathroom_small_7.jpg',
+                title: 'Фото1',
+                hash: 'Фото-1'
+            },
+            {
+                url: 'assets/images/gallery/large/bathroom_8.jpg',
+                thumbUrl: 'assets/images/gallery/small/bathroom_small_8.jpg',
+                title: 'Фото2',
+                hash: 'Фото-2'
+            },
+            {
+                url: 'assets/images/gallery/large/bathroom_9.jpg',
+                thumbUrl: 'assets/images/gallery/small/bathroom_small_9.jpg',
+                title: 'Фото3',
+                hash: 'Фото-3'
+            },
+             {
+                url: 'assets/images/gallery/large/bathroom_10.jpg',
+                thumbUrl: 'assets/images/gallery/small/bathroom_small_10.jpg',
+                title: 'Фото1',
+                hash: 'Фото-1'
+            },
+            {
+                url: 'assets/images/gallery/large/bathroom_11.jpg',
+                thumbUrl: 'assets/images/gallery/small/bathroom_small_11.jpg',
+                title: 'Фото2',
+                hash: 'Фото-2'
+            },
+            {
+                url: 'assets/images/gallery/large/bathroom_12.jpg',
+                thumbUrl: 'assets/images/gallery/small/bathroom_small_12.jpg',
+                title: 'Фото3',
+                hash: 'Фото-3'
+            }
+            ]
+        },
+        {
+        title: 'Отделочные работы',
+        items: [
+            {
+                url: 'assets/images/gallery/large/finishing_work_1.jpg',
+                thumbUrl: 'assets/images/gallery/small/finishing_work_small_1.jpg',
+                title: 'Фото1',
+                hash: 'Фото-1'
+            },
+            {
+                url: 'assets/images/gallery/large/finishing_work_2.jpg',
+                thumbUrl: 'assets/images/gallery/small/finishing_work_small_2.jpg',
+                title: 'Фото2',
+                hash: 'Фото-2'
+            },
+            {
+                url: 'assets/images/gallery/large/finishing_work_3.jpg',
+                thumbUrl: 'assets/images/gallery/small/finishing_work_small_3.jpg',
+                title: 'Фото3',
+                hash: 'Фото-3'
+            },
+             {
+                url: 'assets/images/gallery/large/finishing_work_4.jpg',
+                thumbUrl: 'assets/images/gallery/small/finishing_work_small_4.jpg',
+                title: 'Фото3',
+                hash: 'Фото-3'
+            }
+        ]
+        },
+        {
+        title: 'Промышленные здания',
+        items: [
+            {
+                url: 'assets/images/gallery/large/industrial_building_1.jpg',
+                thumbUrl: 'assets/images/gallery/small/industrial_building_small_1.jpg',
+                title: 'Фото1',
+                hash: 'Фото-1'
+            },
+            {
+                url: 'assets/images/gallery/large/industrial_building_2.jpg',
+                thumbUrl: 'assets/images/gallery/small/industrial_building_small_2.jpg',
+                title: 'Фото2',
+                hash: 'Фото-2'
+            },
+            {
+                url: 'assets/images/gallery/large/industrial_building_3.jpg',
+                thumbUrl: 'assets/images/gallery/small/industrial_building_small_3.jpg',
+                title: 'Фото3',
+                hash: 'Фото-3'
+            },
+             {
+                url: 'assets/images/gallery/large/industrial_building_4.jpg',
+                thumbUrl: 'assets/images/gallery/small/industrial_building_small_4.jpg',
+                title: 'Фото3',
+                hash: 'Фото-3'
+            },
+             {
+                url: 'assets/images/gallery/large/industrial_building_5.jpg',
+                thumbUrl: 'assets/images/gallery/small/industrial_building_small_5.jpg',
+                title: 'Фото3',
+                hash: 'Фото-3'
+            }
+        ]
+    },{
+          title: 'Перепланировка внутри квартиры, офиса, промздания',
+        items: [
+            {
+                url: 'assets/images/gallery/large/reconstruction_1.jpg',
+                thumbUrl: 'assets/images/gallery/small/reconstruction_small_1.jpg',
+                title: 'Фото1',
+                hash: 'Фото-1'
+            },
+            {
+                url: 'assets/images/gallery/large/reconstruction_2.jpg',
+                thumbUrl: 'assets/images/gallery/small/reconstruction_small_2.jpg',
+                title: 'Фото2',
+                hash: 'Фото-2'
+            },
+            {
+                url: 'assets/images/gallery/large/reconstruction_3.jpg',
+                thumbUrl: 'assets/images/gallery/small/reconstruction_small_3.jpg',
+                title: 'Фото3',
+                hash: 'Фото-3'
+            },
+             {
+                url: 'assets/images/gallery/large/reconstruction_4.jpg',
+                thumbUrl: 'assets/images/gallery/small/reconstruction_small_4.jpg',
+                title: 'Фото1',
+                hash: 'Фото-1'
+            },
+            {
+                url: 'assets/images/gallery/large/reconstruction_5.jpg',
+                thumbUrl: 'assets/images/gallery/small/reconstruction_small_5.jpg',
+                title: 'Фото2',
+                hash: 'Фото-2'
+            },
+            {
+                url: 'assets/images/gallery/large/reconstruction_6.jpg',
+                thumbUrl: 'assets/images/gallery/small/reconstruction_small_6.jpg',
+                title: 'Фото3',
+                hash: 'Фото-3'
+            },
+            {
+                url: 'assets/images/gallery/large/reconstruction_7.jpg',
+                thumbUrl: 'assets/images/gallery/small/reconstruction_small_7.jpg',
+                title: 'Фото1',
+                hash: 'Фото-1'
+            },
+            {
+                url: 'assets/images/gallery/large/reconstruction_8.jpg',
+                thumbUrl: 'assets/images/gallery/small/reconstruction_small_8.jpg',
+                title: 'Фото2',
+                hash: 'Фото-2'
+            },
+            {
+                url: 'assets/images/gallery/large/reconstruction_9.jpg',
+                thumbUrl: 'assets/images/gallery/small/reconstruction_small_9.jpg',
+                title: 'Фото3',
+                hash: 'Фото-3'
+            },
+             {
+                url: 'assets/images/gallery/large/reconstruction_10.jpg',
+                thumbUrl: 'assets/images/gallery/small/reconstruction_small_10.jpg',
+                title: 'Фото1',
+                hash: 'Фото-1'
+            },
+            {
+                url: 'assets/images/gallery/large/reconstruction_11.jpg',
+                thumbUrl: 'assets/images/gallery/small/reconstruction_small_11.jpg',
+                title: 'Фото2',
+                hash: 'Фото-2'
+            }
+        ]
+    }
+
+],
+    {
+    "previewSize": 'contain',
+
+    "backgroundColor": '#333',
+
+    "textColor": '#f5f6f6',
+
+    "tooltipChangeSize": 'Изменить размер',
+
+    "tooltipSeeAllItems": 'Просмотреть все изображения',
+
+    "tooltipSeeOtherAlbums": 'Просмотреть другие альбомы',
+
+    "tooltipSlideShowStart": 'Запустить слайд-шоу',
+
+    "tooltipSlideShowPause": 'Приостановить слайд-шоу',
+
+    "tooltipThumbnailsToggle": 'Cкрыть миниатюры',
+
+    "transitionDuration": 300
+    }
+).getElement());
+</script>
+<script charset="utf-8" type="text/javascript" src="https://cp.callback-free.com/api/js/form-builder.js" data-key="nc4oQpoZ"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script src="js/projects.js"></script>
+</body>
+</html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lobster&family=Montserrat:wght@400;700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <title>3remonta</title>
+    <link rel="shortcut icon" href="assets/images/icons/toolbox1.png" type="image/x-icon">
+</head>
+<body>
+
+<!--header-->
+<header class="header" id="header">
+    <div class="container">
+          <div class="header__inner">
+            <div class="header__logo" data-scroll="#intro">
+             <img src="assets/images/logo/logo1.png" alt="">
+            </div>
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#" data-scroll="#about">О нас</a>
+                <a class="nav__link" href="#" data-scroll="#services">Услуги</a>
+                <a class="nav__link" href="#" data-scroll="#works">Наши работы</a>
+                <a class="nav__link" href="projects.html" >Галерея</a>
+                <a class="nav__link" href="#" data-scroll="#footer">Контакты</a>
+            </nav>
+            <button class="nav-toggle" id="nav_toggle" type="button">
+                <span class="nav-toggle__item">Меню</span>
+            </button>
+          </div>
+    </div>
+</header>
+
+<!--intro-->
+<div class="slider" id="intro">
+    <div class="slider__wrapper">
+        <div class="slider__item">
+           <div class="intro__main">
+               <div class="intro">
+                   <div class="container">
+                       <div class="intro__inner">
+                            <h1 class="intro__title">Делаем ремонт как для себя!</h1>
+                             <a href="#" class='btn open-modal' data-modal="#modal1">Сделать заказ</a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+        <div class="slider__item">
+        <div class="intro__house">
+               <div class="intro">
+                   <div class="container">
+                       <div class="intro__inner">
+                            <h1 class="intro__title">Ремонт квартир</h1>
+                             <a href="#" class='btn open-modal' data-modal="#modal1">Сделать заказ</a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+      <div class="slider__item">
+        <div class="intro__office">
+               <div class="intro">
+                   <div class="container">
+                       <div class="intro__inner">
+                            <h1 class="intro__title">Ремонт офисов</h1>
+                             <a href="#" class='btn open-modal' data-modal="#modal1">Сделать заказ</a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+      <div class="slider__item">
+        <div class="intro__prom_bilding">
+               <div class="intro">
+                   <div class="container">
+                       <div class="intro__inner">
+                            <h1 class="intro__title">Ремонт пром зданий</h1>
+                             <a href="#" class='btn open-modal' data-modal="#modal1">Сделать заказ</a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
+    <a class="slider__control slider__control_left" href="#" role="button"></a>
+    <a class="slider__control slider__control_right" href="#" role="button"></a>
+  </div>
+
+<!--services -->
+<section class="section" id="services">
+  <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle">Мы предоставляем</h3>
+                <h2 class="section__title">Такие услуги:</h2>
+            </div>
+              <div class="services">
+                <div class="services__item ">
+                   <img class="services__icon" src="assets/images/icons/toolbox1.png" alt="">
+                    <div class="services__title">Текущий ремонт</div>
+                    <div class="services__text">Заделки мелких повреждений.</div>
+                </div>
+                <div class="services__item">
+                   <img class="services__icon" src="assets/images/icons/pipe1.png" alt="">
+                    <div class="services__title">Капитальный ремонт</div>
+                    <div class="services__text">Демонтаж всей первоначальной отделки и инженерии (электрика, водоснабжение,теплоснабжение, канализация, вентиляция) и монтаж новойвнутренней отделки и инженерии.</div>
+                </div>
+                <div class="services__item">
+                    <img class="services__icon" src="assets/images/icons/blueprint1.png" alt="">
+                    <div class="services__title">Реконструкция</div>
+                    <div class="services__text">Перепланировка внутри квартиры, офиса,промздания + отделочные работы и инженерия..</div>
+                </div>
+            </div>
+      </div>
+</section>
+
+<!--works-->
+<section class="section" id="works">
+  <div class="section__blue">
+  <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle white__suptitle">Как мы делаем</h3>
+                <h2 class="section__title white__title">Наши работы:</h2>
+            </div>
+
+            <div class="card">
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/projects/project1.jpg" alt="">
+                        </div>
+                        <a class="card__text" href="projects.html">Что-то</a>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/projects/project2.jpg" alt="">
+                        </div>
+                        <a class="card__text" href="projects.html">Что-то</a>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <img src="assets/images/projects/project3.jpg" alt="">
+                        </div>
+                        <a class="card__text" href="projects.html">Что-то</a>
+                    </div>
+                </div>
+
+            </div><!--card-->
+      </div>
+      </div>
+
+</section>
+
+<!--about-->
+<section class="section" id="about">
+    <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle">Кто мы?</h3>
+                <h2 class="section__title">О нас</h2>
+            </div>
+            <div class="portfolio">
+                <div class="portfolio__text">
+                  <input type="checkbox" class="read-more-checker" id="read-more-checker" />
+               <div class="limited l-200">
+                     <div class="portfolio__card">
+                    <div class="card__inner portfolio__inner">
+                        <div class="card__img porfolio__img">
+                            <img src="assets/images/portfolio/director.jpg"  alt="">
+                        </div>
+                        <div class="card__text">
+                            <div class="social">
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a class="social__item" href="#" target="_blank">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a class="social__item" href="https://www.instagram.com/3remonta/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__info">
+                        <div class="card__name">Александр  Владимирович Шимков</div>
+                        <div class="card__prof">Главный Директор</div>
+                    </div>
+            </div><!-- card -->
+                    1, строительство капитальных зданий и сооружений, но
+                    корневая компании <b>ТРИРЕМОНТА</b>.<br>
+                    2, как вы догадались речь пойдет о ремонте квартир офисов
+                    пром зданий.<br>
+                    Хочу добавить, что мы ремонтируем а не производим
+                    дизайнерские работы…
+                    Так же сразу скажу, что мы предлагаем свои услуги по
+                    ремонтным работам а не учим вас как это сделать вам
+                    своими руками…<br>
+                    Почему мы – расскажу,<br>
+                    Я архитектор по образованию, специальность
+                    градостроитель, в строительстве почти 20лет, из них 12 в
+                    внутренних отделочных работах. Поверти что это не малый
+                    срок что бы стать мастером своего дела и нести
+                    ответственность за свои работы.<br>
+                    Перед тем как отправиться в свободное плавание я работал
+                    в крупных строительных компаниях от мастера до
+                    начальника участка, и потому знаю все + и – больших строй
+                    компаний, вообще если крупная компания это уже
+                    огромный минус, от доставки и качества материалов, до
+                    контроля и сдачи самой работы. Много можно чего
+                    рассказать, но это будет по ходу дальнейших выходов наших
+                    программ. Потому я сам непосредственно участвую в
+                    работах как составление сметы, контроля и графика работ, а
+                    так же сдачи и приемке этих работ в чем вы сами сможете
+                    убедиться просматривая мои ролики.<br>
+                    <br>
+                    Так же у меня работают проверенные годами мастера и
+                    прорабы<br>
+                    Ну и последнее гарантии и цена моих работ –
+                    Значит гарантии от 3 до 5лет.<br>
+                    Цена естественно будет ниже потому что у нас все
+                    практикуют в строительных работах и не большая компания
+                    фин нагрузка у нас меньше что бы раздать з.п. я не имею в
+                    виду отдельные кучки людей которые себя называют строй
+                    бригадами которых вы после получения денег вы на
+                    следующий день можете не увидеть, но даже те кто и
+                    доведет свои работы до конца за них никакой
+                    ответственности не даст а мы заключаем юр договора и
+                    даем гарантии от 3 до 5лет.<br>
+                    Также вы не только прочитаете но и увидите отзывы о
+                    наших работах. Хоть мы и молодая компания но уже успели
+                    кое что сделать… и начнем мы из начала всех начал чтобы
+                    вы увидели какие квартиры офисы изначально попадают к
+                    нам в руки, а в следующих программах вы увидите в какое
+                    состояние мы их приводим а также мы подробно вам
+                    расскажем, как и что мы делаем.<br>
+<!--
+                    <b>Три ремонта это:</b><br>
+                    <b>1, Текущий ремонт</b> – заделка мелких повреждений
+                    внутренней отделки, покраска, побелка…<br>
+                    <b>2, Капитальный ремонт</b> – демонтаж всей первоначальной
+                    отделки и инженерии (электрика, водоснабжение,
+                    теплоснабжение, канализация, вентиляция) и монтаж новой
+                    внутренней отделки и инженерии.<br>
+
+                    <b>3, Реконструкция</b> – перепланировка внутри квартиры, офиса,
+                    промздания+ отделочные работы и инженерия.
+-->
+
+                <!--text-->
+
+
+
+        <div class="bottom"></div>
+      </div>
+      <label for="read-more-checker" class="read-more-button"></label>
+
+                </div>
+
+            </div>
+    </div>
+</section>
+
+<!--reviews-->
+<section class="section  section--gray">
+        <div class="section__blue">
+        <div class="container">
+        <div class="section__header">
+                <h3 class="section__suptitle white__suptitle">Что думают о нас</h3>
+                <h2 class="section__title white__title">Наши клиенты:</h2>
+            </div>
+
+            <div class="reviews">
+                <div data-slider>
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="assets/images/reviews/men2.png" alt="">
+                            <div class="reviews__text">“Сделали все как по фэншуй.”</div>
+                            <div class="reviews__author">Артур Шишка</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="assets/images/reviews/woman1.png" alt="">
+                            <div class="reviews__text">“Очень довольна - быстро, качествено, не дорого.”</div>
+                            <div class="reviews__author">Юлия Прокопьева</div>
+                        </div>
+                    </div>
+                     <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="assets/images/reviews/men1.png" alt="">
+                            <div class="reviews__text">“Были некоторые проблемы но решили все по доступным ценам - в общем доволен.”</div>
+                            <div class="reviews__author">Коля Смирнов</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="reviews__item">
+                            <img class="reviews__photo" src="assets/images/reviews/woman2.png" alt="">
+                            <div class="reviews__text">“Супер! Делали ремонт квартиры:
+                            + Попали под скидку.
+                            + Гарантия 3 года.”</div>
+                            <div class="reviews__author">Анастасия Зуркина</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--google-map-->
+ <section class="section  section--map">
+        <div class="container">
+            <div class="map">
+                <div class="map__title">
+                    <div><i class="fas fa-map-marker-alt"></i></div>
+                    <h3 class="section__suptitle"><a href="https://goo.gl/maps/gUriG7oys3qBA3r48" target="_blank">Нас можно найти здесь</a></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--modal-window-->
+<div class='modal' id='modal1'>
+    <div class='content'>
+      <h3 class="section__suptitle white__suptitle modal__title">Свяжитесь с нами:</h3>
+       <form>
+                  <div class="form-inner">
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="3РЕМОНТА">
+                    <input type="hidden" name="admin_email" value="mars.nightmares888@gmail.com">
+                    <input type="hidden" name="form_subject" value="Заявка с сайта">
+                    <!-- END Hidden Required Fields -->
+                    <input type="text" name="Name" placeholder="Ваше имя..." required>
+                    <input type="text" name="E-mail" placeholder="Ваш E-mail..." required>
+                    <input type="text" name="Phone" placeholder="Ваш телефон...">
+                        <button class="btn sumbit__modal">Отправить</button>
+                    <div class="politics__inner">
+                        <label class="sumbit__politics">Нажимая на кнопку "Отправить", вы даете согласие на <a href="politics.html" style="color:#4ca3de" target="_blank">обработку персональных данных</a></label>
+                    </div>
+                  </div>
+            </form>
+        <a class='btn close-modal' data-modal="#modal1" href="#">Скрыть</a>
+    </div>
+</div>
+
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__col  footer__col--first">
+                    <a class="autors" href='https://ru.freepik.com/free-photos-vectors/people'>People вектор создан(а) freepik - ru.freepik.com</a>
+                     <a class="autors" href="https://www.flaticon.com/authors/fjstudio" title="fjstudio">Icons made by fjstudio </a><a class="autors" href="https://www.flaticon.com/" title="Flaticon">from www.flaticon.com</a>
+            </div><!--first column-->
+            <div class="footer__col  footer__col--second">
+                <h3 class="section__suptitle white__suptitle footer__title">Контакты:</h3>
+                 <div class="contacts">
+                 <div class="contacts__items">
+                 <i class="fas fa-phone"></i>
+                     <a class="contacts__elements"> +7(23)-45-67-890</a>
+                     </div>
+                     <div class="contacts__items">
+                 <i class="fas fa-map-marker-alt"></i>
+                     <a class="contacts__elements">......</a>
+                     </div>
+                     <div class="contacts__items">
+                 <i class="fab fa-skype"></i>
+                     <a class="contacts__elements">skype</a>
+                     </div>
+                     <div class="contacts__items">
+                 <i class="fas fa-envelope"></i>
+                     <a class="contacts__elements">shimkov.65@mail.ru</a>
+                     </div>
+                 </div>
+            </div><!--second column-->
+            <div class="footer__col  footer__col--third">
+              <h3 class="section__suptitle white__suptitle footer__title">Свяжитесь с нами:</h3>
+              <form>
+                  <div class="form-inner">
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="3РЕМОНТА">
+                    <input type="hidden" name="admin_email" value="mars.nightmares888@gmail.com">
+                    <input type="hidden" name="form_subject" value="Заявка с сайта">
+                    <!-- END Hidden Required Fields -->
+                    <input class="input__modal" type="text" name="Name" placeholder="Ваше имя..." required>
+                    <input class="input__modal" type="text" name="E-mail" placeholder="Ваш E-mail..." required>
+                    <input class="input__modal" type="text" name="Phone" placeholder="Ваш телефон...">
+                        <button class="btn footer__button">Отправить</button>
+                    <div class="politics__inner">
+                        <label class="sumbit__politics">Нажимая на кнопку "Отправить", вы даете согласие на <a href="politics.html" style="color:#4ca3de" target="_blank">обработку персональных данных</a></label>
+                    </div>
+                  </div>
+            </form>
+            </div><!--third column-->
+        </div>
+         <div class="copyright">
+                © 2020 3РЕМОНТА все права защищены.
+         </div>
+    </div>
+</footer>
+<script charset="utf-8" type="text/javascript" src="https://cp.callback-free.com/api/js/form-builder.js" data-key="nc4oQpoZ"></script>
+<script src="https://kit.fontawesome.com/6c2c1fbbdc.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+<script src="js/jquery.maskedinput.js"></script>
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/modal_window.js"></script>
+<script src="js/main_slider.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
